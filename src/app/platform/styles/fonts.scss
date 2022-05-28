@@ -1,0 +1,34 @@
+@import "colors";
+
+$light  : 300;
+$medium : 500;
+$semi   : 600;
+$bold   : 700;
+
+.fw-light {
+  font-weight: $light;
+}
+.fw-medium {
+  font-weight: $medium;
+}
+.fw-semi {
+  font-weight: $semi;
+}
+.fw-bold {
+  font-weight: $bold;
+}
+.text-blue {
+  color: $primary_color;
+}
+.text-dark {
+  color: $secondary_color;
+}
+.text-white {
+  color: white;
+}
+
+@for $index from 10 through 100 {
+  .fs-#{$index} {
+    font-size: 0px + $index;
+  }
+}

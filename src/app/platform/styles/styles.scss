@@ -1,0 +1,37 @@
+@import "layout";
+@import "animate";
+@import "colors";
+@import "fonts";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.input-label{
+  text-transform: capitalize;
+  padding-top: 10px;
+}
+
+.input-container, .select-container{
+  width: 200px;
+  background: white;
+  height: 42px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 0 10px;
+}
+
+.input-radio{
+  width: 20px;
+  height: 20px;
+}
+
+.image-item{
+  width: 350px;
+  height: 250px;
+  border-radius: 6px;
+  object-fit: cover;
+  margin: 10px 0;
+}
